@@ -13,28 +13,28 @@
     "typecheck": "tsc -b --noEmit"
   },
   "dependencies": {
-    "motion": "^12.38.0",
-    "react": "^19.2.5",
-    "react-dom": "^19.2.5",
-    "zustand": "^5.0.13"
+    "motion": "^12.42.2",
+    "react": "^19.2.7",
+    "react-dom": "^19.2.7",
+    "zustand": "^5.0.14"
   },
   "devDependencies": {
-    "@biomejs/biome": "^2.4.14",
-    "@tailwindcss/vite": "^4.2.4",
+    "@biomejs/biome": "^2.5.2",
+    "@tailwindcss/vite": "^4.3.2",
     "@testing-library/jest-dom": "^6.9.1",
     "@testing-library/react": "^16.3.2",
-    "@types/react": "^19.2.14",
+    "@types/react": "^19.2.17",
     "@types/react-dom": "^19.2.3",
-    "@vitejs/plugin-react": "^6.0.1",
-    "@vitest/coverage-istanbul": "^4.1.5",
+    "@vitejs/plugin-react": "^6.0.3",
+    "@vitest/coverage-istanbul": "^4.1.9",
     "jsdom": "^29.1.1",
-    "tailwindcss": "^4.2.4",
+    "tailwindcss": "^4.3.2",
     "typescript": "~6.0.3",
-    "vite": "^8.0.10",
-    "vitest": "^4.1.5"
+    "vite": "^8.1.3",
+    "vitest": "^4.1.9"
   },
   "engines": {
-    "node": ">=25.0.0"
+    "node": ">=25.9.0"
   },
   "comment_eps_ui": "To consume the shared UI package after publish, add: \"@eps-ai-solutions/ui\": \"^<version>\" to dependencies. Removed in template because the package is not yet published — placeholder caused 404 during bun install."
 }
