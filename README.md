@@ -9,6 +9,12 @@ Built on Vite 9 + React 19.2 + Tailwind 4.2.
 ```bash
 bun install
 bun run dev
+bun run lint
+bun run typecheck
+bun run test
+bun run test:coverage
+bun run build
+bun run preview
 ```
 
 ## Deploy
