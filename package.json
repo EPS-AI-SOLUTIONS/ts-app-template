@@ -34,7 +34,7 @@
     "vitest": "^4.1.12"
   },
   "engines": {
-    "node": ">=25.9.0"
+    "node": ">=26.13.0"
   },
   "comment_eps_ui": "To consume the shared UI package after publish, add: \"@eps-ai-solutions/ui\": \"^<version>\" to dependencies. Removed in template because the package is not yet published — placeholder caused 404 during bun install."
 }
